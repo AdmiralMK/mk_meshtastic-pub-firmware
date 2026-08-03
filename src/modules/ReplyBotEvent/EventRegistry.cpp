@@ -45,6 +45,7 @@ static const ReplyBotCommand systemRegistry[] = {
     { "/test",      CommandCategory::SYSTEM, eventTest_matches,      eventTest_handle },
     { "/hard",      CommandCategory::SYSTEM, eventHard_matches,      eventHard_handle },
     { "/help",      CommandCategory::SYSTEM, eventHelp_matches,      eventHelp_handle },
+    { "/telemetry", CommandCategory::SYSTEM, eventTelemetry_matches, eventTelemetry_handle },
 };
 
 // ========== PUBLIC REGISTRY ==========
