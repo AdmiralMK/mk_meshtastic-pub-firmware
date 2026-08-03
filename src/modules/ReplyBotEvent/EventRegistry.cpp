@@ -18,6 +18,7 @@
 #include "System/EventTest.h"
 #include "System/EventHelp.h"
 #include "System/EventHard.h"
+#include "System/EventTelemetry.h"
 
 // --- PUBLIC ---
 #include "Public/EventPubPing.h"
