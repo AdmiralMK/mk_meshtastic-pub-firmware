@@ -33,6 +33,7 @@ ReplyBotModule::ReplyBotModule()
 void ReplyBotModule::setup()
 {
     BotState::instance().load();
+    telemetryTrendUpdater.arm(); // <-- ДОБАВЛЕНО: запуск фонового потока тренда
 }
 
 bool ReplyBotModule::wantPacket(const meshtastic_MeshPacket *p)
