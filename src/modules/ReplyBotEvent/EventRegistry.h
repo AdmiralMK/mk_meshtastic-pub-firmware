@@ -1,5 +1,6 @@
 #pragma once
 #include "mesh/MeshTypes.h"
+#include "System/EventTelemetry.h"
 
 // Категория команды
 enum class CommandCategory {
