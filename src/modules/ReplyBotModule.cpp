@@ -11,6 +11,7 @@
 #include "ReplyBotEvent/Admin/EventAdmSendmsg.h"
 #include "ReplyBotEvent/Admin/EventAdmHere.h"
 #include "mesh/MeshTypes.h"
+#include "ReplyBotEvent/TelemetryTrendUpdater.h"
 #include <Arduino.h>
 #include <cctype>
 #include <cstring>
